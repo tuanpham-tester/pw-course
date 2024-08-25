@@ -1,6 +1,6 @@
 // Khai báo một hằng số number với giá trị là 12
 const number = 12;
-
+console.log(number);
 // Khai báo một biến name với giá trị là ”my number” 
 let name = "my number";
 
