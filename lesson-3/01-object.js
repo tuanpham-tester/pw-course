@@ -30,7 +30,7 @@ let student = {
     console.log("Điểm toán:", student["grades"]["math"]);
 
 //Bài 4:
-const product = {
+let product = {
     "bike": 100,
     "motobike Honda": 1000,
     "motobike Yamaha": 1500
