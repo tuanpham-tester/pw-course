@@ -30,11 +30,11 @@ let student = {
     console.log("Điểm toán:", student["grades"]["math"]);
 
 //Bài 4:
-let product = {
+const product = {
     "bike": 100,
     "motobike Honda": 1000,
     "motobike Yamaha": 1500
 }
 for (let productsName in product) {
-    console.log(productsName, product[productsName]); 
+    console.log(`Tên sản phẩm: ${productsName}, Giá: ${product[productsName]} USD`); 
 }
