@@ -82,7 +82,7 @@ console.log(`Mật mã đã được giải mã là: ${decryptedCode}`);
 // let decryptedCode = decryptCode(code);
 // console.log(`Mật mã đã được giải mã là: ${decryptedCode}`);
 
-Bài 5:
+//Bài 5:
 
 function returnToEarth() {
     console.log("Chuẩn bị trở về Trái Đất!");
