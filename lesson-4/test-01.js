@@ -69,6 +69,25 @@ let code = "K9 Challenge";
 let decryptedCode = decryptCode(code);
 console.log(`Mật mã đã được giải mã là: ${decryptedCode}`);
 
+//Cách 2:
+
+function decryptCode(code1) {
+    let arr = code1.split('');
+    let arr1 = '';
+    for (let i = 0; i < arr.length; i++) { 
+        if (arr[i] === arr[i].toLowerCase()) {
+            arr1 += arr[i].toUpperCase();
+        } else {
+            arr1 += arr[i].toLowerCase();
+        }
+    }
+    return arr1;
+}
+
+let code1 = 'K9 Challenge';
+let decryptedCode2 = decryptCode(code1);
+console.log(`Mật mã đã được giải mã là: ${decryptedCode2}`);
+
 
 //Bài 5:
 
