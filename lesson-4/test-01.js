@@ -1,7 +1,4 @@
 // Bài 1
-
-const { parse } = require("path");
-
 let departurePlanet = "Trái Đất";
 let misson = "Khám phá Vũ trụ K9";
 let crew = ["Joon Phạm 1", "Joon Phạm 2", "Joon Phạm 3"];
